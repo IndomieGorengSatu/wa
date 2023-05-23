@@ -7,27 +7,33 @@
   "env": {
     "SESSION_KEY": {
       "description": "Session encryption password",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "SESSION_URL": {
       "description": "session.secure public url (It is safe because it is encrypted, But still if you want maybe you can create some sort of authorization stuff)",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "PM_REPLY": {
       "description": " Make it false if you don't want bot to send an automated message when someone DM for first time.",
-      "value": "true"
+      "value": "",
+      "required": false
     },
     "MONGODB_URL": {
       "description": "MongoDB URL, Get it for free from cloud.mongodb.com",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "BOT_TOKEN": {
       "description": "telegram bot token from @Botfather",
-      "value": "true"
+      "value": "",
+      "required": false
     },
     "OWNER_ID": {
       "description": "your telegram ID",
-      "value": ""
+      "value": "",
+      "required": false
     }
   }
 }
